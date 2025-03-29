@@ -106,7 +106,8 @@ dependencies = [
 [[package]]
 name = "c2rust-ast-builder"
 version = "0.20.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7a97f61c684c3a09f7f4de54ebf59a896542df1d97d155a9decaeafa53dd67ce"
 dependencies = [
  "proc-macro2",
  "syn 1.0.109",
@@ -115,7 +116,8 @@ dependencies = [
 [[package]]
 name = "c2rust-ast-exporter"
 version = "0.20.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8868539d829566628bf32a079019beb684bd5189df0fc10fa020702726b0e95a"
 dependencies = [
  "bindgen",
  "c2rust-build-paths",
@@ -131,7 +133,8 @@ dependencies = [
 [[package]]
 name = "c2rust-ast-printer"
 version = "0.20.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "64d76c782861bfc17e8366de786296ba6fbc9ae5b118accfccb3e6bc6b9ec68e"
 dependencies = [
  "log",
  "prettyplease 0.1.25",
@@ -142,7 +145,8 @@ dependencies = [
 [[package]]
 name = "c2rust-bitfields"
 version = "0.20.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "46dc7d2bffa0d0b3d47eb2dc69973466858281446c2ac9f6d8a10e92ab1017df"
 dependencies = [
  "c2rust-bitfields-derive",
 ]
@@ -150,7 +154,8 @@ dependencies = [
 [[package]]
 name = "c2rust-bitfields-derive"
 version = "0.20.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ebe1117afa5937ce280034e31fa1e84ed1824a252f75380327eed438535333f8"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -160,7 +165,8 @@ dependencies = [
 [[package]]
 name = "c2rust-build-paths"
 version = "0.20.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "26a89583a73b0526f8c7f28e11585ee69450812b10d3e65f2d56bafcb2a4edf8"
 dependencies = [
  "print_bytes",
 ]
@@ -448,7 +454,8 @@ dependencies = [
 [[package]]
 name = "include_c2rust-transpile"
 version = "0.1.0"
-source = "git+https://github.com/richardscollin/c2rust?rev=f22456b7be760714f146a2b19dead6f40822dfdb#f22456b7be760714f146a2b19dead6f40822dfdb"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d75c6d76016e5796427f2c6d77d97b164c384786b7c1cf9259d83f1dec2b85d1"
 dependencies = [
  "c2rust-ast-builder",
  "c2rust-ast-exporter",

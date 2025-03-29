@@ -12,8 +12,8 @@ proc-macro = true
 anyhow = "1.0.97"
 proc-macro2 = "1.0.94"
 syn = '1.0' # c2rust uses syn 1, use that here to not further increase build times
-# c2rust-transpile = { "include_c2rust-transpile", version = "0.1.0" } # 0.20
-c2rust-transpile = { package = "include_c2rust-transpile", version = "0.1.0", git = "https://github.com/richardscollin/c2rust", rev = "f22456b7be760714f146a2b19dead6f40822dfdb" } # 0.20
+c2rust-transpile = { package = "include_c2rust-transpile", version = "0.1.0" } # 0.20
+# c2rust-transpile = { package = "include_c2rust-transpile", version = "0.1.0", git = "https://github.com/richardscollin/c2rust", rev = "f22456b7be760714f146a2b19dead6f40822dfdb" } # 0.20
 # c2rust-transpile = { package = "include_c2rust-transpile", version = "0.1.0", path = "../../../Git/c2rust/c2rust-transpile" } # 0.20
 rand = "0.9.0"
 serde_json = "1.0.140"
