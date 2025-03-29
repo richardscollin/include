@@ -2,6 +2,12 @@
 name = "include"
 version = "0.1.0"
 edition = "2021"
+authors = ["Collin Richards <richardscollin@gatech.edu>"]
+license = "BSD-3-Clause"
+keywords = ["inline", "c", "ffi"]
+categories = ["development-tools", "development-tools::ffi", "rust-patterns"]
+repository = "https://github.com/richardscollin/include"
+description = "include c code in rust files using macros"
 
 [lib]
 proc-macro = true
