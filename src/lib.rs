@@ -2,8 +2,7 @@ extern crate proc_macro;
 
 use c2rust_transpile::RustEdition;
 use proc_macro::TokenStream;
-use std::path::Path;
-use std::{io::Write, path::PathBuf};
+use std::path::{Path, PathBuf};
 
 use anyhow::Context;
 use rand::Rng;
